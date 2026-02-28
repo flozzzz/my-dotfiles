@@ -458,9 +458,9 @@
     "vimKeybinds": false,
     "commands": {
       "logout": [
-        "hyprctl",
-        "dispatch",
-        "exit",
+        "loginctl",
+        "terminate-user",
+        ""
       ],
       "shutdown": [
         "systemctl",
